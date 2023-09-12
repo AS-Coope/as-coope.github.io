@@ -1,7 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
 body {
+
     box-sizing: border-box;
     background-color: rgb(154, 199, 195);
+    margin: 0;
+    font-family: Besley, serif;
 
     display: flex;
     flex-direction: column;
+}
+
+.navigation-bar {
+
+    background-color: rgb(33, 56, 104);
+    height: 10vh;
+    padding: 16px;
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-links,
+.right-links {
+
+    display: flex;
+}
+
+.left-links {
+
+    font-size: 48px;
+}
+
+li {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-sites {
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 30px;
+}
+
+a {
+
+    text-decoration: none;
+    color: white
 }

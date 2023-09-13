@@ -11,6 +11,15 @@ body {
     flex-direction: column;
 }
 
+/* common styles area */
+.intro-container,
+.projects-container {
+
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+/* naviation-bar section */
 .navigation-bar {
 
     background-color: rgb(33, 56, 104);
@@ -52,12 +61,13 @@ li {
     gap: 30px;
 }
 
-a {
+.navigation-bar a {
 
     text-decoration: none;
     color: white
 }
 
+/* Introduction Section */
 #intro {
 
     display: flex;
@@ -69,8 +79,6 @@ a {
 
     background-color: rgb(247, 247, 247);
     max-width: 600px;
-    padding: 20px 30px;
-    border-radius: 20px;
 
     display: flex;
     flex-direction: column;
@@ -94,4 +102,57 @@ p {
 
     padding: 0;
     margin: 0;
+}
+
+/* Projects Section */
+
+img {
+    width: 480px;
+    height: 320px;
+}
+
+#projects {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.projects-container {
+
+    background-color: rgb(247, 247, 247);
+    width: 800px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projects-container h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.project {
+
+    background-color: lavender;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.project-right-side {
+
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.project-github {
+    align-self: center;
 }

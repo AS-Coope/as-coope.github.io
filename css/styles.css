@@ -109,6 +109,7 @@ p {
 img {
     width: auto;
     height: 550px;
+    border-radius: 10px;
 }
 
 #projects {
@@ -137,10 +138,11 @@ img {
 .project {
 
     background-color: lavender;
+    padding: 10px;
+    border-radius: 15px;
 
     display: flex;
-    justify-content: space-between;
-    gap: 100px;
+    gap: 50px;
 }
 
 .project-right-side {

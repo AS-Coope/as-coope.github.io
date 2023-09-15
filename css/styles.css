@@ -107,8 +107,8 @@ p {
 /* Projects Section */
 
 img {
-    width: auto;
-    height: 550px;
+    max-width: 340px;
+    height: auto;
     border-radius: 10px;
 }
 
@@ -151,10 +151,28 @@ img {
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
 }
 
+.project-title {
+
+    font-size: 32px;
+    font-weight: bold;
+    border: 5px solid black;
+    padding: 0px 40px 0px 5px;
+}
+
+.project-description {
+
+    text-align: start;
+}
+
 .project-github {
+
     align-self: center;
+}
+
+.project-github a {
+
+    text-decoration: none;
 }

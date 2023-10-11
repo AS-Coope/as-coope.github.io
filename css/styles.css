@@ -72,7 +72,7 @@ body {
 
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .intro-container {
@@ -116,7 +116,8 @@ img {
 
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .projects-container {

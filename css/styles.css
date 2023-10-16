@@ -119,7 +119,7 @@ img {
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 
 .projects-container {

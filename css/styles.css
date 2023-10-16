@@ -69,28 +69,22 @@ body {
 #intro {
 
     display: flex;
-    justify-content: center;
-    padding-top: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px 0px;
     color: rgb(223, 218, 218);
+
 }
 
 .intro-container {
 
-    max-width: 600px;
-
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.intro-container h1 {
-
-    margin: 0;
-    padding: 0;
-    text-decoration: underline;
-}
-
-h3 {
+h1 {
 
     padding: 0;
     margin: 0;
@@ -100,6 +94,10 @@ p {
 
     padding: 0;
     margin: 0;
+}
+
+.tect-stack {
+    max-width: 400px;
 }
 
 /* Projects Section */
@@ -141,7 +139,8 @@ img {
     border-radius: 15px;
 
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .project-right-side {

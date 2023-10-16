@@ -71,7 +71,12 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 100px 0px;
+    /*display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    */
+    gap: 50px;
+    padding: 100px 50px;
     color: rgb(223, 218, 218);
 
 }
@@ -82,6 +87,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-right: 50px;
 }
 
 h1 {

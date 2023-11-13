@@ -205,5 +205,20 @@ footer {
 }
 
 .contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 14px;
+}
+
+.contact-box ul {
+    display: flex;
+    padding: 0;
+    gap: 3rem;
+}
+
+.contact-box ul img {
+    height: 5rem;
+    width: auto;
 }

@@ -17,7 +17,7 @@ body {
 }
 
 /* common styles area */
-.projects-container {
+.projects__projects-container {
 
     border-radius: 20px;
     padding: 20px 30px;
@@ -37,26 +37,26 @@ body {
     justify-content: space-between;
 }
 
-.left-links,
-.right-links {
+.navigation-bar__left-links,
+.navigation-bar__right-links {
 
     display: flex;
 }
 
-.left-links {
+.navigation-bar__left-links {
 
     font-size: 48px;
 }
 
 .navigation-bar li,
-#contact li {
+.contact li {
 
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.nav-sites {
+.navgiation-bar__nav-sites {
 
     margin: 0;
     padding: 0;
@@ -66,14 +66,14 @@ body {
 }
 
 .navigation-bar a,
-#contact a {
+.contact a {
 
     text-decoration: none;
     color: var(--font-color);
 }
 
 /* Introduction Section */
-#intro {
+.intro {
 
     display: flex;
     justify-content: space-around;
@@ -88,7 +88,7 @@ body {
 
 }
 
-.intro-container {
+.intro__intro-container {
 
     max-width: 400px;
     display: flex;
@@ -121,7 +121,7 @@ img {
     border-radius: 10px;
 }
 
-#projects {
+.projects {
 
     display: flex;
     justify-content: center;
@@ -129,7 +129,7 @@ img {
     padding-bottom: 100px;
 }
 
-.projects-container {
+.projects__projects-container {
 
     background-color: rgb(247, 247, 247);
     width: 800px;
@@ -140,12 +140,12 @@ img {
     gap: 20px;
 }
 
-.projects-container h1 {
+.projects__projects-container h1 {
     margin: 0;
     padding: 0;
 }
 
-.project {
+.projects__project {
 
     background-color: lavender;
     padding: 10px;
@@ -156,7 +156,7 @@ img {
     gap: 20px;
 }
 
-.project-right-side {
+.projects__project-right-side {
 
     max-width: 300px;
 
@@ -165,7 +165,7 @@ img {
     align-items: flex-start;
 }
 
-.project-title {
+.projects__project-title {
 
     font-size: 32px;
     font-weight: bold;
@@ -173,22 +173,22 @@ img {
     padding: 0px 40px 0px 5px;
 }
 
-.project-description {
+.projects__project-description {
 
     text-align: start;
 }
 
-.project-description ul {
+.projects__project-description ul {
     margin: 0;
 }
 
-.project-github {
+.projects__project-github {
 
     margin: 20px;
     align-self: center;
 }
 
-.project-github a {
+.projects__project-github a {
 
     padding: 5px;
     border: 3px solid black;
@@ -207,11 +207,11 @@ footer {
     color: rgb(223, 218, 218);
 }
 
-#contact a {
+.contact a {
     color: rgb(223, 218, 218);
 }
 
-.contact-box {
+.contact__contact-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,13 +219,13 @@ footer {
     padding: 14px;
 }
 
-.contact-box ul {
+.contact__contact-box ul {
     display: flex;
     padding: 0;
     gap: 3rem;
 }
 
-.contact-box ul img {
+.contact__contact-box ul img {
     height: 5rem;
     width: auto;
 }

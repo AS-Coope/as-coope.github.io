@@ -84,7 +84,7 @@ body {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
     */
-    gap: 10px;
+    gap: 50px;
     padding: 100px 100px;
     color: var(--intro-font-color);
 

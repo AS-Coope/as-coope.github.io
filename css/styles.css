@@ -97,6 +97,10 @@ body {
     padding-right: 50px;
 }
 
+.intro__image img {
+    border-radius: 50%;
+}
+
 h1 {
 
     padding: 0;

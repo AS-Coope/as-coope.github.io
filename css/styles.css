@@ -9,7 +9,8 @@
 body {
 
     box-sizing: border-box;
-    background-color: #272a2d;
+    background-color: rgb(242, 239, 237);
+    /*#272a2d*/
     margin: 0;
 
     /*     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
@@ -87,7 +88,7 @@ body {
     */
     gap: 50px;
     padding: 100px 100px;
-    color: var(--intro-font-color);
+    color: black;
 
 }
 
@@ -112,7 +113,7 @@ body {
 .intro__topic-sentence {
     font-size: 2rem;
     font-weight: 900;
-    color: var(--intro-font-color-accent);
+    color: hsla(197, 57%, 41%, 0.993);
 }
 
 .intro__quote {
@@ -153,8 +154,9 @@ img {
 
 .projects__projects-container {
 
-    background-color: rgb(247, 247, 247);
+    background-color: var(--font-color);
     width: 800px;
+    border-top: hsla(197, 57%, 41%, 0.993) 0.4em solid;
     text-align: center;
 
     display: flex;

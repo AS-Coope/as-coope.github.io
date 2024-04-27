@@ -125,10 +125,28 @@ body {
     margin: 0.5rem 0 0;
 }
 
+/* Code section styles*/
+.functions {
+    color: hsla(49, 94%, 46%, 0.993);
+}
+
+.strings {
+    color: var(--font-color);
+}
+
+.parantheses {
+    color: hsla(273, 74%, 64%, 0.993);
+}
+
 h1 {
 
     padding: 0;
     margin: 0;
+}
+
+.intro__heading>strong {
+    color: hsla(197, 57%, 41%, 0.993);
+    font-size: 1.5em;
 }
 
 p {

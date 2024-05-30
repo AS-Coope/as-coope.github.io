@@ -325,7 +325,18 @@ footer {
     gap: 3rem;
 }
 
-.contact__contact-box ul img {
-    height: 5rem;
-    width: auto;
+@media screen and (min-width: 425px) {
+
+    .contact__contact-box ul img {
+        height: 5rem;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .contact__contact-box ul img {
+        height: 3rem;
+        width: auto;
+    }
 }

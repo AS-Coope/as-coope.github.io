@@ -270,12 +270,21 @@ p {
     font-size: 32px;
     font-weight: bold;
     border: 5px solid black;
-    padding: 0px 40px 0px 5px;
+    padding: 0 40px 0 5px;
+    margin-bottom: 1rem;
 }
 
 .projects__project-description {
 
     text-align: start;
+}
+
+.desc+p {
+    margin-bottom: 1rem;
+}
+
+.tools {
+    margin-bottom: 1rem;
 }
 
 .projects__project-description ul {

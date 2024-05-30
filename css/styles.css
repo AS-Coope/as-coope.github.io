@@ -65,7 +65,7 @@ body {
 
 .navigation-bar__left-links {
 
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .navigation-bar li,
@@ -84,7 +84,7 @@ body {
 
         display: flex;
         flex-direction: row;
-        gap: 1rem;
+        gap: 2rem;
     }
 }
 
@@ -96,7 +96,7 @@ body {
 
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 1.2rem;
     }
 }
 
@@ -105,6 +105,10 @@ body {
 
     text-decoration: none;
     color: var(--font-color);
+}
+
+.navgiation-bar__nav-sites a:hover {
+    color: white;
 }
 
 /* Introduction Section */

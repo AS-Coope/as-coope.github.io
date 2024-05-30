@@ -245,24 +245,55 @@ p {
     padding: 0;
 }
 
-.projects__project {
+@media screen and (min-width: 600px) {
 
-    background-color: lavender;
-    padding: 10px;
-    border-radius: 15px;
+    .projects__project {
 
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+        background-color: lavender;
+        padding: 10px;
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
 }
 
-.projects__project-right-side {
+@media screen and (max-width: 600px) {
 
-    max-width: 300px;
+    .projects__project {
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+        background-color: lavender;
+        padding: 10px;
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .projects__project-right-side {
+
+        max-width: 300px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .projects__project-right-side {
+
+        max-width: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .projects__project-title {

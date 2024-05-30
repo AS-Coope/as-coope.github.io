@@ -161,8 +161,17 @@ p {
 
 /* Projects Section */
 
-img {
-    max-width: 340px;
+@media screen and (min-width: 320px) {
+    img {
+        max-width: 10rem;
+        height: auto;
+        border-radius: 10px;
+    }
+
+}
+
+.intro-logo {
+    max-width: 20rem;
     height: auto;
     border-radius: 10px;
 }
@@ -178,7 +187,7 @@ img {
 .projects__projects-container {
 
     background-color: var(--font-color);
-    width: 800px;
+    width: 600px;
     border-top: hsla(197, 57%, 41%, 0.993) 0.4em solid;
     text-align: center;
 

@@ -4,16 +4,13 @@
             <h2>Contact</h2>
         </div>
         <ul>
+            {% for image in site.data.footer-images %}
             <li>
-                <a href="https://www.linkedin.com/in/ryan-cooper-dz33" target="_blank">
-                    <img src="./img/LI-In-Bug.png" class="footer-logos" alt="Image of LinkedIn icon">
+                <a href="{{ image.link }}" target="_blank">
+                    <img src="{{ image.image }}" class="footer-logos" alt="{{ image.alt }}">
                 </a>
             </li>
-            <li>
-                <a href="https://github.com/AS-Coope" target="_blank">
-                    <img src="./img/github-mark-white.png" class="footer-logos" alt="Image of Github icon">
-                </a>
-            </li>
+            {% endfor %}
         </ul>
     </div>
 </footer>

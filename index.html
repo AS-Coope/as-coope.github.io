@@ -69,47 +69,7 @@ title: Ryan Cooper - Home
             </div>-->
     </div>
 
-    <div class="projects" id="projects">
-        <div class="projects__projects-container">
-            <h1>PROJECTS</h1>
-
-            {% for project in site.data.projects %}
-            <div class="projects__project">
-                <div class="projects__project-left-side">
-                    <img src="{{ project.image }}" alt="{{ project.image-alt }}">
-                </div>
-
-                <div class="projects__project-right-side">
-
-                    <div class="projects__project-title">
-                        {{ project.name }}
-                    </div>
-
-                    <div class="projects__project-description">
-                        <p class="desc"><strong>Description:</strong></p>
-                        <p>{{ project.description }}</p>
-                        <p class="tools"><strong>Tools and Technologies:</strong> {{ project.tools-and-tech }}</p>
-                        <p class="res"><strong>Resources:</strong></p>
-                        <ul>
-                            {% for resource in project.resources %}
-                            <li>
-                                {{ resource.type }}:
-                                <a href="{{ resource.link }}" target="_blank">{{ resource.name }}</a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-
-                    <div class="projects__project-github">
-                        <a href="{{ project.code-link }}" target="_blank"><strong>View Code on
-                                Github</strong></a>
-                    </div>
-
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
+    {% include projects.html %}
 
 </main>
 

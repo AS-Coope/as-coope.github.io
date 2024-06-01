@@ -1,70 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: home
+title: Ryan Cooper - Home
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Ryan Cooper - Home</title>
-</head>
+<header>
+    <div class="navigation-bar">
 
-<body>
-
-    <header>
-        <div class="navigation-bar">
-
-            <div class="navigation-bar__left-links">
-                <a href="index.html">ZrC</a>
-            </div>
-
-            <div class="navigation-bar__right-links">
-                <ul class="navgiation-bar__nav-sites">
-                    <li><a href="#projects">Projects</a></li>
-                    <!--<li><a href="#logs">Logs</a></li>-->
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="https://github.com/AS-Coope" target="_blank">Github</a></li>
-                </ul>
-            </div>
-
+        <div class="navigation-bar__left-links">
+            <a href="index.html">ZrC</a>
         </div>
-    </header>
 
-    <main>
+        <div class="navigation-bar__right-links">
+            <ul class="navgiation-bar__nav-sites">
+                <li><a href="#projects">Projects</a></li>
+                <!--<li><a href="#logs">Logs</a></li>-->
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/AS-Coope" target="_blank">Github</a></li>
+            </ul>
+        </div>
 
-        <div class="intro">
-            <div class="intro__intro-container">
-                <div>
-                    <p class="intro__heading">
-                        <strong>Hi</strong>, my name is Ryan.
-                    </p>
-                    <p class="intro__topic-sentence">
-                        <code>
+    </div>
+</header>
+
+<main>
+
+    <div class="intro">
+        <div class="intro__intro-container">
+            <div>
+                <p class="intro__heading">
+                    <strong>Hi</strong>, my name is Ryan.
+                </p>
+                <p class="intro__topic-sentence">
+                    <code>
                             <span class="functions">console.log</span><span class="parantheses">(</span><span class="strings">"Web Developer"</span><span class="parantheses">)</span>;
                             <br>
                             <span class="functions">println</span><span class="parantheses">(</span><span class="strings">"Android Mobile Application Developer"</span><span class="parantheses">)</span>
                         </code>
-                    </p>
-                    <blockquote class="intro__quote">
-                        <em><strong>"You can't know everything, but you should convince yourself that you can know
-                                anything"</strong></em>
-                        - John
-                        Carmack
-                    </blockquote>
-                </div>
-                <!--
+                </p>
+                <blockquote class="intro__quote">
+                    <em><strong>"You can't know everything, but you should convince yourself that you can know
+                            anything"</strong></em>
+                    - John
+                    Carmack
+                </blockquote>
+            </div>
+            <!--
                 <div class="intro__interests">
                     <p>
                         Outside of those areas, I'm interested in <strong>Game Development</strong>, <strong>Graphics
                             Programming</strong> and <strong>Music Production</strong>.
                     </p>
                 </div>-->
-            </div>
+        </div>
 
-            <div class="intro__image">
-                <img class="intro-logo" src="./img/ZrC Glitch.gif" alt="Picture of Logo">
-            </div>
-            <!--
+        <div class="intro__image">
+            <img class="intro-logo" src="./img/ZrC Glitch.gif" alt="Picture of Logo">
+        </div>
+        <!--
             <div class="intro__tech-lang">
                 <h1>Languages & Technologies</h1>
                 <br>
@@ -75,81 +67,81 @@
                     Technologies: Git, Github, Ubuntu, PostgreSQL, Figma, Postman
                 </p>
             </div>-->
-        </div>
+    </div>
 
-        <div class="projects" id="projects">
-            <div class="projects__projects-container">
-                <h1>PROJECTS</h1>
+    <div class="projects" id="projects">
+        <div class="projects__projects-container">
+            <h1>PROJECTS</h1>
 
-                <div class="projects__project">
-                    <div class="projects__project-left-side">
-                        <img src="./img/project_genonedex.jpg" alt="Image of a screen from Gen One Dex Project">
-                    </div>
-
-                    <div class="projects__project-right-side">
-
-                        <div class="projects__project-title">
-                            GenOneDex
-                        </div>
-
-                        <div class="projects__project-description">
-                            <p class="desc"><strong>Description:</strong></p>
-                            <p>An Android application that simulates a Generation 1 PokéDex.</p>
-                            <p class="tools"><strong>Tools and Technologies:</strong> Kotlin, Android Studio</p>
-                            <p class="res"><strong>Resources:</strong></p>
-                            <ul>
-                                <li>
-                                    Images:
-                                    <a href="https://pokemondb.net/sprites" target="_blank">pokemondb</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="projects__project-github">
-                            <a href="https://github.com/AS-Coope/Gen1Dex" target="_blank"><strong>View Code on
-                                    Github</strong></a>
-                        </div>
-
-                    </div>
+            <div class="projects__project">
+                <div class="projects__project-left-side">
+                    <img src="./img/project_genonedex.jpg" alt="Image of a screen from Gen One Dex Project">
                 </div>
 
-                <div class="projects__project">
-                    <div class="projects__project-left-side">
-                        <img src="./img/project_voice_recorder.jpg" alt="Image of a screen from Voice Recorder Project">
+                <div class="projects__project-right-side">
+
+                    <div class="projects__project-title">
+                        GenOneDex
                     </div>
 
-                    <div class="projects__project-right-side">
-
-                        <div class="projects__project-title">
-                            Voice Recorder
-                        </div>
-
-                        <div class="projects__project-description">
-                            <p class="desc"><strong>Description:</strong></p>
-                            <p>An Android application that allows you to record audio, view saved audio recordings and
-                                play
-                                saved audio recordings.</p>
-                            <p class="tools"><strong>Tools and Technologies:</strong> Kotlin, Android Studio</p>
-                            <p class="res"><strong>Resources:</strong></p>
+                    <div class="projects__project-description">
+                        <p class="desc"><strong>Description:</strong></p>
+                        <p>An Android application that simulates a Generation 1 PokéDex.</p>
+                        <p class="tools"><strong>Tools and Technologies:</strong> Kotlin, Android Studio</p>
+                        <p class="res"><strong>Resources:</strong></p>
+                        <ul>
                             <li>
-                                Video Playlist:
-                                <a href="https://www.youtube.com/watch?v=FjFr3_MyGmA&list=PLpZQVidZ65jPz-XIHdWi1iCra8TU9h_kU"
-                                    target="_blank">
-                                    The Zone: Audio Recorder
-                                </a>
+                                Images:
+                                <a href="https://pokemondb.net/sprites" target="_blank">pokemondb</a>
                             </li>
-                        </div>
-
-                        <div class="projects__project-github">
-                            <a href="https://github.com/AS-Coope/Voice-Recorder-App" target="_blank"><strong>View Code
-                                    on
-                                    Github</strong></a>
-                        </div>
-
+                        </ul>
                     </div>
+
+                    <div class="projects__project-github">
+                        <a href="https://github.com/AS-Coope/Gen1Dex" target="_blank"><strong>View Code on
+                                Github</strong></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="projects__project">
+                <div class="projects__project-left-side">
+                    <img src="./img/project_voice_recorder.jpg" alt="Image of a screen from Voice Recorder Project">
                 </div>
 
-                <!--
+                <div class="projects__project-right-side">
+
+                    <div class="projects__project-title">
+                        Voice Recorder
+                    </div>
+
+                    <div class="projects__project-description">
+                        <p class="desc"><strong>Description:</strong></p>
+                        <p>An Android application that allows you to record audio, view saved audio recordings and
+                            play
+                            saved audio recordings.</p>
+                        <p class="tools"><strong>Tools and Technologies:</strong> Kotlin, Android Studio</p>
+                        <p class="res"><strong>Resources:</strong></p>
+                        <li>
+                            Video Playlist:
+                            <a href="https://www.youtube.com/watch?v=FjFr3_MyGmA&list=PLpZQVidZ65jPz-XIHdWi1iCra8TU9h_kU"
+                                target="_blank">
+                                The Zone: Audio Recorder
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="projects__project-github">
+                        <a href="https://github.com/AS-Coope/Voice-Recorder-App" target="_blank"><strong>View Code
+                                on
+                                Github</strong></a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--
             <div class="project">
                 <div class="project-left-side">
                     <img alt="A Project's Image">
@@ -173,36 +165,32 @@
             </div>
             -->
 
-            </div>
         </div>
+    </div>
 
-    </main>
+</main>
 
-    <!--
+<!--
     <div id="logs">
         <h1>Logs</h1>
     </div>
     -->
-    <footer class="contact" id="contact">
-        <div class="contact__contact-box">
-            <div class="contact__contact-heading">
-                <h2>Contact</h2>
-            </div>
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/ryan-cooper-dz33" target="_blank">
-                        <img src="./img/LI-In-Bug.png" class="footer-logos" alt="Image of LinkedIn icon">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/AS-Coope" target="_blank">
-                        <img src="./img/github-mark-white.png" class="footer-logos" alt="Image of Github icon">
-                    </a>
-                </li>
-            </ul>
+<footer class="contact" id="contact">
+    <div class="contact__contact-box">
+        <div class="contact__contact-heading">
+            <h2>Contact</h2>
         </div>
-    </footer>
-
-</body>
-
-</html>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/ryan-cooper-dz33" target="_blank">
+                    <img src="./img/LI-In-Bug.png" class="footer-logos" alt="Image of LinkedIn icon">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/AS-Coope" target="_blank">
+                    <img src="./img/github-mark-white.png" class="footer-logos" alt="Image of Github icon">
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>

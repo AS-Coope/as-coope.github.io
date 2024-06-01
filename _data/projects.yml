@@ -1,0 +1,22 @@
+- project-name: GenOneDex
+  image: ./assets/img/project_genonedex.jpg
+  image-alt: Image of a screen from Gen One Dex Project
+  description: An Android application that simulates a Generation 1 PokéDex.
+  tools-and-tech: Kotlin, Android Studio
+  resources:
+      - type: Images 
+        name: pokemondb
+        link: https://pokemondb.net/sprites
+  code-link: https://github.com/AS-Coope/Gen1Dex
+
+- project-name: Voice Recorder
+  image: ./assets/img/project_voice_recorder.jpg
+  image-alt: Image of a screen from Voice Recorder Project
+  description: An Android application that allows you to record audio, view saved audio recordings and play
+  tools-and-tech: Kotlin, Android Studio
+  resources:
+      - type: Video Playlist
+        name: The Zone - Audio Recorder
+        link: https://www.youtube.com/watch?v=FjFr3_MyGmA&list=PLpZQVidZ65jPz-XIHdWi1iCra8TU9h_kU
+  code-link: https://github.com/AS-Coope/Voice-Recorder-App
+      

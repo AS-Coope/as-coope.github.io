@@ -73,98 +73,41 @@ title: Ryan Cooper - Home
         <div class="projects__projects-container">
             <h1>PROJECTS</h1>
 
+            {% for project in site.data.projects %}
             <div class="projects__project">
                 <div class="projects__project-left-side">
-                    <img src="./img/project_genonedex.jpg" alt="Image of a screen from Gen One Dex Project">
+                    <img src="{{ project.image }}" alt="{{ project.image-alt }}">
                 </div>
 
                 <div class="projects__project-right-side">
 
                     <div class="projects__project-title">
-                        GenOneDex
+                        {{ project.name }}
                     </div>
 
                     <div class="projects__project-description">
                         <p class="desc"><strong>Description:</strong></p>
-                        <p>An Android application that simulates a Generation 1 PokéDex.</p>
-                        <p class="tools"><strong>Tools and Technologies:</strong> Kotlin, Android Studio</p>
+                        <p>{{ project.description }}</p>
+                        <p class="tools"><strong>Tools and Technologies:</strong> {{ project.tools-and-tech }}</p>
                         <p class="res"><strong>Resources:</strong></p>
                         <ul>
+                            {% for resource in project.resources %}
                             <li>
-                                Images:
-                                <a href="https://pokemondb.net/sprites" target="_blank">pokemondb</a>
+                                {{ resource.type }}:
+                                <a href="{{ resource.link }}" target="_blank">{{ resource.name }}</a>
                             </li>
+                            {% endfor %}
                         </ul>
                     </div>
 
                     <div class="projects__project-github">
-                        <a href="https://github.com/AS-Coope/Gen1Dex" target="_blank"><strong>View Code on
+                        <a href="{{ project.code-link }}" target="_blank"><strong>View Code on
                                 Github</strong></a>
                     </div>
 
                 </div>
             </div>
-
-            <div class="projects__project">
-                <div class="projects__project-left-side">
-                    <img src="./img/project_voice_recorder.jpg" alt="Image of a screen from Voice Recorder Project">
-                </div>
-
-                <div class="projects__project-right-side">
-
-                    <div class="projects__project-title">
-                        Voice Recorder
-                    </div>
-
-                    <div class="projects__project-description">
-                        <p class="desc"><strong>Description:</strong></p>
-                        <p>An Android application that allows you to record audio, view saved audio recordings and
-                            play
-                            saved audio recordings.</p>
-                        <p class="tools"><strong>Tools and Technologies:</strong> Kotlin, Android Studio</p>
-                        <p class="res"><strong>Resources:</strong></p>
-                        <li>
-                            Video Playlist:
-                            <a href="https://www.youtube.com/watch?v=FjFr3_MyGmA&list=PLpZQVidZ65jPz-XIHdWi1iCra8TU9h_kU"
-                                target="_blank">
-                                The Zone: Audio Recorder
-                            </a>
-                        </li>
-                    </div>
-
-                    <div class="projects__project-github">
-                        <a href="https://github.com/AS-Coope/Voice-Recorder-App" target="_blank"><strong>View Code
-                                on
-                                Github</strong></a>
-                    </div>
-
-                </div>
-            </div>
-
-            <!--
-            <div class="project">
-                <div class="project-left-side">
-                    <img alt="A Project's Image">
-                </div>
-
-                <div class="project-right-side">
-
-                    <div class="project-title">
-                        STAND-IN TITLE
-                    </div>
-
-                    <div class="project-description">
-                        STAND-IN DESCRIPTION
-                    </div>
-
-                    <div class="project-github">
-                        <a href="#">GITHUB Link</a>
-                    </div>
-
-                </div>
-            </div>
-            -->
-
+            {% endfor %}
         </div>
     </div>
 

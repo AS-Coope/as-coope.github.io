@@ -1,4 +1,4 @@
-- project-name: GenOneDex
+- name: GenOneDex
   image: ./assets/img/project_genonedex.jpg
   image-alt: Image of a screen from Gen One Dex Project
   description: An Android application that simulates a Generation 1 PokéDex.
@@ -9,7 +9,7 @@
         link: https://pokemondb.net/sprites
   code-link: https://github.com/AS-Coope/Gen1Dex
 
-- project-name: Voice Recorder
+- name: Voice Recorder
   image: ./assets/img/project_voice_recorder.jpg
   image-alt: Image of a screen from Voice Recorder Project
   description: An Android application that allows you to record audio, view saved audio recordings and play

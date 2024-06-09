@@ -5,7 +5,11 @@
         {% for project in site.data.projects %}
         <div class="projects__project">
             <div class="projects__project-left-side">
+                {% if project.tools-and-tech contains "Kotlin" %}
                 <img src="{{ project.image }}" alt="{{ project.image-alt }}">
+                {% else %}
+                <img class="proj-not-android" src="{{ project.image }}" alt="{{ project.image-alt }}">
+                {% endif %}
             </div>
 
             <div class="projects__project-right-side">

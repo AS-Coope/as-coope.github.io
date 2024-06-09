@@ -22,7 +22,7 @@
 
 - name: Search Fetch Shift
   image: ./assets/img/search_fetch_shift_menu.png
-  image-alt: Image of a screen from Voice Recorder Project
+  image-alt: Image of a screen from Search Fetch Shift Project
   description: An interactive command line application that allows you to move files of similar file type from one directory to the next, all at once!
   tools-and-tech: Python, JSON
   resources:

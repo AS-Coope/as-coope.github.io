@@ -19,4 +19,12 @@
         name: The Zone - Audio Recorder
         link: https://www.youtube.com/watch?v=FjFr3_MyGmA&list=PLpZQVidZ65jPz-XIHdWi1iCra8TU9h_kU
   code-link: https://github.com/AS-Coope/Voice-Recorder-App
+
+- name: Search Fetch Shift
+  image: ./assets/img/search_fetch_shift_menu.png
+  image-alt: Image of a screen from Voice Recorder Project
+  description: An interactive command line application that allows you to move files of similar file type from one directory to the next, all at once!
+  tools-and-tech: Python, JSON
+  resources:
+  code-link: https://github.com/AS-Coope/Search-Fetch-Shift
       
